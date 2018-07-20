@@ -1,0 +1,98 @@
+﻿.page {
+    margin: 0;
+    padding: 3% 0 3% 6%;
+  }
+
+.heading {
+    margin: 0 0 2% 0;
+    font-family: sans-serif;
+    color: #4D5152;
+}
+
+.grid {
+    display: grid;
+    width: 1150px;
+    height: 750px;
+    gap: 15px;
+    grid-template-rows: 1fr 2fr 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas:
+    "item1 item1 item1 item2 item2 item2"
+    "items1 items1 items1 grid__items grid__items grid__items"
+    "itemses1 itemses1 itemses2 itemses2 itemses3 itemses4"
+    "itemsing1 itemsing2 itemsing2 itemsing2 itemsing3 itemsing3";
+}
+
+.small-grid {
+  display: grid;
+  gap: 15px;
+  grid-template-areas:
+  "small-items2 small-items2 small-items3 small-items3 small-items4 small-items4"
+  "small-items5 small-items5 small-items5 small-items6 small-items6 small-items6";
+}
+
+.item1 {
+  grid-area: item1;
+  background: url(../img/img1.png) center;
+}
+.item2 {
+  grid-area: item2;
+  background: url(../img/img2.png) center;
+}
+.items1 {
+  grid-area: items1;
+  background: url(../img/img3.png) center;
+}
+
+.grid__items {
+  grid-area: grid__items;
+}
+
+.small-items2 {
+  grid-area: small-items2;
+  background: url(../img/img4.png) center;
+}
+.small-items3 {
+  grid-area: small-items3;
+  background: url(../img/img4.png) center;
+}
+.small-items4 {
+  grid-area: small-items4;
+  background: url(../img/img4.png) center;
+}
+.small-items5 {
+  grid-area: small-items5;
+  background: url(../img/img5.png) center;
+}
+.small-items6 {
+  grid-area: small-items6;
+  background: url(../img/img5.png) center;
+}
+.itemses1 {
+  grid-area: itemses1;
+  background: url(../img/img6.png) center;
+}
+.itemses2 {
+  grid-area: itemses2;
+  background: url(../img/img6.png) center;
+}
+.itemses3 {
+  grid-area: itemses3;
+  background: url(../img/img7.png) center;
+}
+.itemses4 {
+  grid-area: itemses4;
+  background: url(../img/img7.png) center;
+}
+.itemsing1 {
+  grid-area: itemsing1;
+  background: url(../img/img8.png) center;
+}
+.itemsing2 {
+  grid-area: itemsing2;
+  background: url(../img/img9.png) center;
+}
+.itemsing3 {
+  grid-area: itemsing3;
+  background: url(../img/img10.png) center;
+}
